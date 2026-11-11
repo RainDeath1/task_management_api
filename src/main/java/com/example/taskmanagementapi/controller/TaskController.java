@@ -13,7 +13,7 @@ public class TaskController {
     @GetMapping
     public List<Task> getTasks() {
         return List.of(
-                new Task(1L, "Изучить Java", true),
+                new Task(1L, "SMTH", true),
                 new Task(2L, "Настроить CI/CD", false),
                 new Task(3L, "Do something", false)
         );
